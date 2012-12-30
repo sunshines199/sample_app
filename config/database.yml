@@ -6,7 +6,7 @@
 development:
   adapter: postgresql
   database: db/development
-  username: gen
+  username: rails
   password: soleil
   pool: 5
   timeout: 5000
@@ -17,7 +17,7 @@ development:
 test:
   adapter: postgresql
   database: db/test
-  username: gen
+  username: rails
   password: soleil
   pool: 5
   timeout: 5000
@@ -25,7 +25,7 @@ test:
 production:
   adapter: postgresql
   database: db/production
-  username: gen
+  username: rails
   password: soleil
   pool: 5
   timeout: 5000
